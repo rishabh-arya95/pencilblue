@@ -9,4 +9,7 @@ preMerge:
 postMerge:
   pattern:
     - "./test/**/*.js"
+postRun:
+  command:
+    - echo 'Done'
 version: 1.0
